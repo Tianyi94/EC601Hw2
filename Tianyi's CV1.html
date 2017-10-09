@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Tianyi's Resume</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Style -->
+    <link rel = 'stylesheet' href= 'css/style.css'>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+
+
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<h1>
+				Tianyi's Resume
+			</h1>
+		<div>
+			
+
+        <!-- header -->
+        <header class= 'row' id= 'header'>
+            <div class= 'col-md-8 text-left text-uppercase title-col-left'>
+		<br>
+                <p class = 'lower-title'>Apt403, 175 Freeman Street, Brookline, MA 02446</p>
+                <p class = 'lower-title'>Tel: 8572428034</p>
+		<p class = 'lower-title'>Email: tianyiz@bu.edu</p>
+		<p class = 'lower-title'>Github: https://github.com/Tianyi94</p>
+                <p class = 'lower-title'>Linkedin: https://www.linkedin.com/in/zhang-tianyi-55a977119/</p>
+            </div>
+            <div class= 'col-md-4 title-col-right'>
+                <img class= 'title-logo img-rounded img-responsive'
+                     src= 'img/tianyi_head.png' alt = 'headphoto'>
+            </div>    
+        </header>
+	</div>
+
+
+	<!-- About me -->
+        <section class = 'row table'>
+            <div class = 'col-md-12'>
+                <h2>About me</h2>
+            </div>
+            <article class = 'col-md-12 article-structure'>
+                <img class = 'image-responsive' src = 'img/lisp.png' alt = 'lisp'>
+                <h4 class = 'project-title'> I am in BU lisp Group (Learning, Intelligence & Signal Processing)</h4>
+            </article>
+ 	    <article class = 'col-md-12 article-structure'>
+                <video class = 'video-article' controls>
+                    <source src = 'video/VirtualPiano.mp4' type="video/mp4">
+                </video>
+                <h4 class = 'project-title'> One interesting project I made. Virtual piano: A piano without keyboard</h4>
+            </article>
+            </section>
+
+	<!-- CV -->
+        <section class = 'row table'>
+            <div class = 'col-md-12'>
+                <h2>Resume</h2>
+            </div>
+	    <div class = 'col-md-12'>
+                <h3>EDUCATION</h3>
+		<h4><b>Shanghai Jiaotong University</b></h4>
+		<h4>Bachelor of Mechanical Engineering, Sep 2012 - July 2016</h4>
+		<h4>GPA 3.2/4.0</h4>
+		<h4><b>Boston University</b></h4>
+		<h4>Master of Electrical and Computer Engineering, Sep 2016 - May 2018</h4>
+		<h4>GPA 3.7/4.0</h4>
+            </div>
+            <div class = 'col-md-12'>
+                <h3>RESEARCH EXPERIENCE</h3>
+		<h4><b>Ransomware detection using RNN</b></h4>
+		<h4>Instructor: Prof. Peter Chin from BU Sep.2017-Present</h4>
+		<h4>This program is aiming at applying machine learning on cybersecurity by using RNN to detect ransomware.</h4>
+		<h4>Ransomware is a kind of malware that takes advantage of people's fear of revealing their private information or losing their critical data.</h4>
+		<h4>By using RNN(recurrent neural network), the computer will able to judge whether a software is ransomware by analyzing its behavior.</h4>
+		<h4></h4>
+		<h4><b>Real-Time Tip-Clearance Measurement System</b></h4>
+		<h4>Instructor: Mingjian Li from SJTU    Mentor: Libing Jia from Siemens Sep.2015-Present</h4>
+		<h4>The project was a collaborative research project between Siemens gas turbine R&D center and Shanghai Jiaotong University.</h4>
+		<h4>Designed and constructed a test rig simulating rotating blades in a casing with 80 blades and maximum rotating speed of 3600rpm.</h4>
+		<h4>Set up a sensor system that is able to perform real-time measurements of tip clearance with precision of 0.2mm, range at 20mm.</h4>
+		<h4></h4>
+		<h3>WORK EXPERIENCE</h3>
+		<h4><b>Dresser-Rand Engineered Equipment (Shanghai) Ltd.  Winter Intern Jan.2014-Feb.2014</b></h4>
+		<h4>Received training in compressor and its auxiliary system.</h4>
+		<h4>Participated in centrifugal compressor overhaul at service center.</h4>
+		<h4>Learned to calculated ideal-gas key operating parameters for compressor sizing.</h4>
+		<h4></h4>
+		<h3>HONORS & AWARDS</h3>
+		<h4><b>Honorable Mention, Mathematical Contest In Modeling (MCM,USA)             2014</b></h4>
+		<h4></h4>
+		<h4><b>Freshman Scholarship, Joint Institute, Shanghai Jiaotong University            2012</b></h4>
+		<h4></h4>
+		<h3>ADDITIONAL</h3>
+		<h4>Computer skills: C, C++, AutoCAD, Soliworks, Pro/Engineer, Unigraphics NX, Autodesk, Matlab, Mathematica, OriginLab, Fluent, Ansys, Latex, Endnote, Microsoft Office, etc.</h4>
+		<h4>Achieved the Highest Level (Level 10) of China National Saxophone Amateur Testing.        2014</h4>
+		<h4></h4>
+
+
+
+
+            </div>
+            </section>
+
+
+</div>
+<script src="https://www.gstatic.com/firebasejs/4.5.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDKXYVeGDWnILLSSTuD51liPMya8UDN0Jc",
+    authDomain: "ec602hw2-367de.firebaseapp.com",
+    databaseURL: "https://ec602hw2-367de.firebaseio.com",
+    projectId: "ec602hw2-367de",
+    storageBucket: "",
+    messagingSenderId: "207495531342"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+
+</div>    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
