@@ -1,2 +1,4 @@
-# EC601Hw2
-Homework2 for EC601. In this homework, we are asked to  develop web and get to know basics of client/server architectures using Google's Firebase.
+# EC601Hw2 Part1
+This is part1 for homework2.
+I made my own resume website, containing my basic information, a video of one project I made last semester and my CV.
+To open the website, just download the whole folder and open Tianyi's CV1.html.
