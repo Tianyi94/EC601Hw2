@@ -3,3 +3,5 @@
 This is part1 for homework2.
 I made my own resume website, containing my basic information, a video of one project I made last semester and my CV.
 To open the website, just download the whole folder and open Tianyi's CV1.html.
+---
+For Unit Test, please see the second part of homework. Link: https://github.com/Tianyi94/EC601Hw2Part2
